@@ -1,0 +1,20 @@
+<div>
+ {{$fullname}}
+ </div>
+ <div>
+ {{$email}}
+ </div>
+ <div>
+ {{$address}}
+ </div>
+ <div>
+ {{$category_id}}
+ </div>
+ <div>
+ {{$type_id}}
+ </div>
+ <br>
+ <pre>
+ {{$bodyMessage}}
+</pre>
+ <br>
