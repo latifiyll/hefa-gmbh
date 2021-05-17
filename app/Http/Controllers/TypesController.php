@@ -16,7 +16,7 @@ class TypesController extends Controller
      */
     public function index(Request $request)
     {
-        $types = Type::orderBy('id_type', 'ASC')->get();
+        $types = Type::orderBy('id', 'ASC')->get();
 
         return view('main.type.index', compact('types'));
     }
