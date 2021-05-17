@@ -19,7 +19,7 @@ class OnlineOffersController extends Controller
     {
 
       $onlineoffers = OnlineOffer::orderBy('created_at', 'DESC')->get();
-        return view('main.onlineoffers.index', compact('onlineoffers', 'carbon'));
+        return view('main.onlineoffers.index', compact('onlineoffers'));
     }
 
     /**

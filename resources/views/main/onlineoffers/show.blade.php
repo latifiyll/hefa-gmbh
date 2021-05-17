@@ -113,7 +113,7 @@
                           <input type="submit" class="btn btn btn-success" value="Send Message">
                         </div>
                       </form>
-                    </div>
+              </div>
              </div>
 
 
